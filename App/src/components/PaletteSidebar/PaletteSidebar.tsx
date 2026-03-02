@@ -2,7 +2,7 @@ import React from 'react';
 import { useExam } from '../../context/ExamContext';
 import { CandidateProfile } from '../CandidateProfile/CandidateProfile';
 import { QuestionGrid } from '../QuestionGrid/QuestionGrid';
-import { StatusLegend } from '../StatusLegend/StatusLegend';
+import { StatusSummary } from '../StatusSummary/StatusSummary';
 
 export const PaletteSidebar: React.FC = () => {
   const { 
@@ -31,7 +31,7 @@ export const PaletteSidebar: React.FC = () => {
         />
 
         <div className="mt-auto pt-6 border-t border-gray-100">
-          <StatusLegend />
+          <StatusSummary />
         </div>
       </div>
     </aside>
