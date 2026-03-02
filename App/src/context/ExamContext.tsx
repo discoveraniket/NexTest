@@ -1,10 +1,9 @@
-import React, { createContext, useContext, useState, useEffect, useCallback, useMemo, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, useMemo, type ReactNode } from 'react';
 import examDataRaw from '../questions.json';
 import type { 
   ExamData, 
   ExamState, 
   Question,
-  QuestionState,
 } from '../types';
 
 const examData = examDataRaw as unknown as ExamData;

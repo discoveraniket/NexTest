@@ -1,8 +1,8 @@
 {
-  "name": "cbt-simulator-root",
+  "name": "nextest-root",
   "private": true,
   "version": "1.0.0",
-  "description": "CBT Exam Simulator",
+  "description": "NexTest: High-Performance CBT Exam Simulator",
   "scripts": {
     "install:all": "cd App && npm install",
     "build": "cd App && npm run build",

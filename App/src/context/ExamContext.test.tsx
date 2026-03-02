@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { describe, it, expect, vi } from 'vitest';
 import { ExamProvider, useExam } from './ExamContext';
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 
 // Mock questions.json to have a stable test set
 vi.mock('../questions.json', () => ({

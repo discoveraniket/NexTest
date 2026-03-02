@@ -9,7 +9,6 @@ export const ExamTerminal: React.FC = () => {
   const {
     examData,
     allQuestions,
-    currentIdx,
     currentQuestion,
     currentPart,
     currentSubject,
