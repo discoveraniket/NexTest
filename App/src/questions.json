@@ -1,0 +1,1060 @@
+{
+  "exam_details": {
+    "name": "RRB GD",
+    "year": "2025",
+    "duration_minutes": 90,
+    "correct_answer_weightage": 1,
+    "negative_marking": "1/3"
+  },
+  "sections": {
+    "PART-A": {
+      "General Science": [
+        {
+          "question_id": 1,
+          "question": "Which of the following statements is correct?",
+          "options": {
+            "A": "Work done can only be negative.",
+            "B": "Work done can be positive or negative depending on the direction of force.",
+            "C": "Work done does not depend on force or displacement.",
+            "D": "Work done can only be positive."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "question": "Through which method of cell division are the diploid chromosomes divided into haploid gametes?",
+          "options": {
+            "A": "Mitosis",
+            "B": "Binary Fission",
+            "C": "Amitosis",
+            "D": "Meiosis"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 3,
+          "question": "The power of a lens is defined as:",
+          "options": {
+            "A": "The reciprocal of its focal length in meters",
+            "B": "The ratio of image distance to object distance",
+            "C": "The product of its focal length and refractive index",
+            "D": "The square of its focal length"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 4,
+          "question": "When a thick glass slab is placed over printed matter, the letters appear raised. This is due to ______.",
+          "options": {
+            "A": "Scattering of light",
+            "B": "Refraction of light",
+            "C": "Total internal reflection",
+            "D": "Polarization of light"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "question": "The motion of a satellite orbiting the Earth in a circular path at constant speed is a classic example of uniform circular motion. What property of this motion prevents its acceleration from being zero?",
+          "options": {
+            "A": "The total mechanical energy is conserved, necessitating acceleration.",
+            "B": "The direction of motion changes continuously at every point, meaning the velocity is changing.",
+            "C": "The object's mass continually changes due to orbital dynamics.",
+            "D": "The speed is too high for the gravitational force to sustain a constant velocity."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "question": "Asthma primarily affects which part of the respiratory system?",
+          "options": {
+            "A": "Diaphragm",
+            "B": "Bronchi and bronchioles",
+            "C": "Trachea",
+            "D": "Alveoli"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "question": "Which of the following describes an example of uniform circular motion?",
+          "options": {
+            "A": "A train moving on its track",
+            "B": "A car accelerating on its way",
+            "C": "A ball thrown vertically upwards",
+            "D": "A fan blade rotating at constant speed"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 8,
+          "question": "During reproduction, why is it important to create DNA copies?",
+          "options": {
+            "A": "For blood circulation",
+            "B": "For digestion",
+            "C": "For inheritance of traits",
+            "D": "For respiration"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 9,
+          "question": "What happens when a naphthalene ball is burnt in a metal plate in open space?",
+          "options": {
+            "A": "It burns with a blue flame.",
+            "B": "It burns with yellow flame with no deposit on the metal plate.",
+            "C": "It burns with a yellow flame with black soot deposited on the metal plate.",
+            "D": "It burns with a blue flame with black soot deposited on the metal plate."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 10,
+          "question": "When water and nutrients are available, algae grow and multiply rapidly by the process of",
+          "options": {
+            "A": "spore formation",
+            "B": "pollination",
+            "C": "fragmentation",
+            "D": "budding"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 11,
+          "question": "A coil has a resistance of 44 Ω . If it is connected across a 220 V supply, what is the power consumed by the coil?",
+          "options": {
+            "A": "5 W",
+            "B": "1100 W",
+            "C": "110 W",
+            "D": "0.2 W"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 12,
+          "question": "Which of the following options best describes the term Culture Fishery?",
+          "options": {
+            "A": "Catching fishes from marine water",
+            "B": "Capturing fishes from artificial resources",
+            "C": "Farming of the fishes",
+            "D": "Capturing fishes from natural resources"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 13,
+          "question": "A body is dropped from a height. If it falls for 3.0 s and g = 10 m/s², its final velocity (v) is",
+          "options": {
+            "A": "10 m/s",
+            "B": "30 m/s",
+            "C": "40 m/s",
+            "D": "20 m/s"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "question": "What happens when a zinc rod is placed in aqueous copper sulphate solution?",
+          "options": {
+            "A": "The blue colour of the copper sulphate solution fades.",
+            "B": "The temperature of the solution falls.",
+            "C": "Heat is required to start the reaction.",
+            "D": "No chemical change observed."
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "question": "The fractional atomic mass of chlorine is due to which of the following?",
+          "options": {
+            "A": "Presence of ions",
+            "B": "Presence of isotopes",
+            "C": "Its compound nature",
+            "D": "Experimental error"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 16,
+          "question": "The functional group which does NOT contain oxygen hetero atom is:",
+          "options": {
+            "A": "halo alkane",
+            "B": "ketone",
+            "C": "carboxylic acid",
+            "D": "alcohol"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "question": "What is the main role of micelles in the cleansing action of soap?",
+          "options": {
+            "A": "To trap and remove oil and dirt from clothes",
+            "B": "To reduce the hardness of water",
+            "C": "To produce lather with water",
+            "D": "To increase the surface tension of water"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 18,
+          "question": "Which poultry are birds farmed to produce eggs?",
+          "options": {
+            "A": "Milch",
+            "B": "Common carp",
+            "C": "Layers",
+            "D": "Broilers"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 19,
+          "question": "Statement 1: The potential difference is measured in volts. Statement 2: One volt is equal to one newton per coulomb. Which of the following is true?",
+          "options": {
+            "A": "Both Statements 1 and 2 are correct.",
+            "B": "Only Statement 2 is correct.",
+            "C": "Both Statements 1 and 2 are incorrect.",
+            "D": "Only Statement 1 is correct."
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 20,
+          "question": "The frequency of a sound wave is 50 Hz. How much time will it take to complete one wave?",
+          "options": {
+            "A": "50 s",
+            "B": "0.02 s",
+            "C": "0.2 s",
+            "D": "5 s"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "question": "Which of the following statements best explains the Law of Constant Proportions?",
+          "options": {
+            "A": "Elements are always found in random ratios in a compound.",
+            "B": "Atoms can be divided into smaller particles during a reaction.",
+            "C": "Mass can neither be created nor destroyed in a chemical reaction.",
+            "D": "A chemical compound always contains the same elements in the same proportion by mass."
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 22,
+          "question": "Which of the following is NOT used for expressing the concentration of a solution?",
+          "options": {
+            "A": "Volume by Volume percentage of a solution",
+            "B": "Volume by Mass percentage of a solution",
+            "C": "Mass by volume percentage of a solution",
+            "D": "Mass by mass percentage of a solution"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 23,
+          "question": "Which of the following plant tissue performs photosynthesis?",
+          "options": {
+            "A": "Chlorenchyma",
+            "B": "Sclerenchyma",
+            "C": "Xylem",
+            "D": "Phloem"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "question": "Which of the following life processes is important to bring variation in species?",
+          "options": {
+            "A": "Heterotrophic nutrition",
+            "B": "Transportation",
+            "C": "Autotrophic nutrition",
+            "D": "Sexual reproduction"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 25,
+          "question": "Which of the following metals is extracted in the middle of the activity series?",
+          "options": {
+            "A": "Gold",
+            "B": "Potassium",
+            "C": "Iron",
+            "D": "Sodium"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "PART-B": {
+      "General Intelligence": [
+        {
+          "question_id": 51,
+          "question": "In a certain code language, A + B means 'A is the sister of B', A - B means 'A is the brother of B', A - B means 'A is the wife of B', and A # B means 'A is the father of B'. How is O related to V if 'O + P # T @ G - V'?",
+          "options": {
+            "A": "Wife's father's mother",
+            "B": "Wife's mother",
+            "C": "Wife's father's sister",
+            "D": "Wife's sister"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 52,
+          "question": "If + means - , - means ×, × means + and + means +, then what will come in place of the question mark (?) in the following equation? 84 - 6 ÷ 371 + 648 × 8 = ?",
+          "options": {
+            "A": "797",
+            "B": "794",
+            "C": "799",
+            "D": "795"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 53,
+          "question": "In a certain code language, 'OVAL' is coded as '5294' and 'LOVE' is coded as '8549'. What is the code for 'E' in the given code language?",
+          "options": {
+            "A": "8",
+            "B": "5",
+            "C": "9",
+            "D": "4"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 54,
+          "question": "Refer to the following number series and answer the question that follows. All numbers are single-digit numbers only. Counting to be done from left to right only. (Left) 4 6 5 8 2 2 1 8 2 9 8 4 7 4 8 2 4 3 1 4 1 2 7 2 6 (Right) How many such numbers are there, each of which is immediately preceded by a perfect square and also immediately followed by a perfect square? (Note: 1 is also a perfect square.)",
+          "options": {
+            "A": "Two",
+            "B": "Four",
+            "C": "Three",
+            "D": "One"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 55,
+          "question": "What should come in place of the question mark (?) in the given series? 61 85 109 133 157 ?",
+          "options": {
+            "A": "179",
+            "B": "183",
+            "C": "181",
+            "D": "185"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 56,
+          "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+          "options": {
+            "A": "OSN",
+            "B": "GKE",
+            "C": "NRL",
+            "D": "LPJ"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 57,
+          "question": "Alex starts from Point A and drives 8 km towards the east. He then takes a left turn, drives 6 km, turns left and drives 17 km. He then takes a left turn and drives 13 km. He takes a final left turn, drives 9 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only, unless specified.)",
+          "options": {
+            "A": "8 km to the north",
+            "B": "7 km to the north",
+            "C": "8 km to the south",
+            "D": "7 km to the south"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 58,
+          "question": "What should come in place of the question mark (?) in the given series? 991 989 985 979 971 ?",
+          "options": {
+            "A": "967",
+            "B": "963",
+            "C": "961",
+            "D": "969"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 59,
+          "question": "If + means –, – means ×, × means ÷ and ÷ means +, then what will come in place of the question mark (?) in the following equation? 173 – 3 ÷ 282 + 164 × 4 = ?",
+          "options": {
+            "A": "769",
+            "B": "761",
+            "C": "760",
+            "D": "766"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 60,
+          "question": "UI 12 is related to YK -2 in a certain way. In the same way, OL 9 is related to SN -5. To which of the following is PQ 15 related, following the same logic?",
+          "options": {
+            "A": "ST 3",
+            "B": "TT 3",
+            "C": "SS 1",
+            "D": "TS 1"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 61,
+          "question": "Refer to the given number, symbol series and answer the question that follows. Counting to be done from left to right only. All numbers are single- digit numbers. (Left) 8↑3□9%4671↑5↑2+@ & (Right) How many such symbols are there, each of which is immediately preceded by a number and also immediately followed by another symbol?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "1",
+            "D": "2"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 62,
+          "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic. URIC - CRUI - RIUC KIDS - SIKD - IDKS",
+          "options": {
+            "A": "NAVY - YANV - VANY",
+            "B": "OPEN - OEPN - NEPO",
+            "C": "FADE - EAFD - ADFE",
+            "D": "MALE - AMLE - EALM"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 63,
+          "question": "In a certain code language, 'house sip head' is coded as 'bm ma px' and 'head wood robot' is coded as 'pz bm ey'. How is 'head' coded in the given language?",
+          "options": {
+            "A": "ma",
+            "B": "bm",
+            "C": "pz",
+            "D": "px"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 64,
+          "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (14, 42, 3) (12, 60, 5)",
+          "options": {
+            "A": "(15, 45, 4)",
+            "B": "(11, 55, 6)",
+            "C": "(13, 39, 3)",
+            "D": "(16, 42, 2)"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 65,
+          "question": "Refer to the following number series and answer the question that follows (all numbers are single-digit numbers only). Counting to be done from left to right only. (Left) 6 5 8 8 5 4 7 7 4 2 7 9 2 2 5 7 4 8 8 2 1 8 9 (Right) How many such odd digits are there, each of which is immediately preceded by an odd digit and also immediately followed by an odd digit?",
+          "options": {
+            "A": "One",
+            "B": "Two",
+            "C": "None",
+            "D": "Three"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 66,
+          "question": "What should come in place of the question mark (?) in the given series, based on the English alphabetical order? RJV QIU PHT OGS ?",
+          "options": {
+            "A": "NHT",
+            "B": "NFR",
+            "C": "PFR",
+            "D": "PHT"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 67,
+          "question": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s). Statements: Some hats are caps. No cap is a vest. Conclusions: (I) Some hats are vests. (II) Some caps are hats.",
+          "options": {
+            "A": "Both conclusions (I) and (II) follow.",
+            "B": "Only conclusion (II) follows.",
+            "C": "Neither conclusion (I) nor (II) follows.",
+            "D": "Only conclusion (I) follows."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 68,
+          "question": "Seven people, A, B, C, D, E, F and G, are sitting in a row, facing north. Only five people sit to the right of A. Only five people sit to the left of B. F is the immediate neighbour of G and E. C sits second to the left of E. How many people sit to the left of G?",
+          "options": {
+            "A": "Three",
+            "B": "One",
+            "C": "Four",
+            "D": "Two"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 69,
+          "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+          "options": {
+            "A": "UTR",
+            "B": "IHF",
+            "C": "ZZW",
+            "D": "NMK"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 70,
+          "question": "Madhur ranked 58th from the top and 6th from the bottom in his class. How many students are there in his class?",
+          "options": {
+            "A": "61",
+            "B": "64",
+            "C": "63",
+            "D": "62"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 77,
+          "question": "O, P, Q, R, W, X and Y are sitting in a straight line, facing north. Only two people sit to the left of P. Only three people sit between P and W. Only one person sits between W and X. R sits to the immediate left of O. Y is not an immediate neighbour of W. How many people sit to the right of Q?",
+          "options": {
+            "A": "Three",
+            "B": "Four",
+            "C": "One",
+            "D": "Two"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 78,
+          "question": "RR 4 is related to UQ -14 in a certain way. In the same way, II 8 is related to LH -10. To which of the given options is MO 12 related, following the same logic?",
+          "options": {
+            "A": "PN -6",
+            "B": "HY -5",
+            "C": "GT -2",
+            "D": "NH 9"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 79,
+          "question": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s). Statements: Some pizzas are cupcakes. All buns are cupcakes. Conclusions: (I) Some pizzas are buns. (II) All cupcakes are buns.",
+          "options": {
+            "A": "Only conclusion (II) follows.",
+            "B": "Both conclusions (I) and (II) follow.",
+            "C": "Only conclusion (I) follows.",
+            "D": "Neither conclusion (I) nor (II) follows."
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 80,
+          "question": "Refer to the following number series and answer the question that follows. (All numbers are single-digit numbers only.) (Counting to be done from left to right only.) (Left) 2 8 2 3 2 7 9 3 5 4 6 8 9 4 4 7 8 7 5 4 3 5 5 6 2 9 8 (Right) How many such odd numbers are there, each of which is immediately preceded by an odd number and also immediately followed by an odd number?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "4",
+            "D": "6"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "PART-C": {
+      "Mathematics": [
+        {
+          "question_id": 26,
+          "question": "P is any point inside the rectangle ABCD. If PA = 98 cm, PB = 91 cm and PC = 21 cm, then the length of PD (in cm) is equal to:",
+          "options": {
+            "A": "38",
+            "B": "41",
+            "C": "46",
+            "D": "42"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 27,
+          "question": "The vertices of a convex pentagon (in order) are P(0,0), Q(6,0), R(8,3), S(4,7), T(0,4). Find the area of the pentagon.",
+          "options": {
+            "A": "42 sq. units",
+            "B": "36 sq. units",
+            "C": "39 sq. units",
+            "D": "45 sq. units"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 28,
+          "question": "A metal rod is divided into three parts, A, B and C. The lengths of A and B are in the ratio 9 : 20, and the lengths of C and B are in the ratio 5 : 11. If the difference between the lengths of A and C is 10 cm, find the total length (in cm) of the metal rod.",
+          "options": {
+            "A": "4202",
+            "B": "4199",
+            "C": "4190",
+            "D": "4180"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 29,
+          "question": "Soniya got married 15 years ago. Her present age is 8/5 times her age at the time of her marriage. Her sister was 8 years younger to her at the time of her marriage. Find the present age of her sister.",
+          "options": {
+            "A": "32 years",
+            "B": "24 years",
+            "C": "40 years",
+            "D": "28 years"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 30,
+          "question": "The average age of 26 students of a class is 26 years. If the age of the teacher is also included, the average age of the whole group becomes 27 years. The age (in years) of the teacher is:",
+          "options": {
+            "A": "54",
+            "B": "50",
+            "C": "57",
+            "D": "53"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 31,
+          "question": "If Δ × 2.2 + 0.33 × 3/4 - 1/20 × 0.55 = 0.99, then the value of Δ is:",
+          "options": {
+            "A": "0.35",
+            "B": "1",
+            "C": "0.25",
+            "D": "0"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 32,
+          "question": "If 20% of a number is added to 90, then the result is the same number. 80% of the same number is:",
+          "options": {
+            "A": "90",
+            "B": "120",
+            "C": "110",
+            "D": "100"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 33,
+          "question": "Smriti goes to a shopping mall at a speed of 21 km/hr and returns at a speed of 69 km/hr. Find her average speed (in km/hr) for the entire trip.",
+          "options": {
+            "A": "40.2",
+            "B": "30.3",
+            "C": "32.2",
+            "D": "23.4"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 34,
+          "question": "An article was bought for £8,900. Its price was marked up by 40%. Thereafter, it was sold at a discount of 5% on the marked price. What was the profit percentage on the transaction?",
+          "options": {
+            "A": "32%",
+            "B": "34%",
+            "C": "35%",
+            "D": "33%"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 35,
+          "question": "If p = 6, q = -3, then the value of pÂ³ - 3p² + 3p + 3q + 3q² + qÂ³ is:",
+          "options": {
+            "A": "-61",
+            "B": "61",
+            "C": "117",
+            "D": "-117"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 36,
+          "question": "Which of the following ratios is equivalent to 3 : 2?",
+          "options": {
+            "A": "53 : 38",
+            "B": "51 : 37",
+            "C": "52 : 34",
+            "D": "54 : 36"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 37,
+          "question": "The cost of a washing machine is 40% less than the cost of a TV. If the cost of the washing machine increases by 52% and that of the TV decreases by 76%, then what is the percentage change in the total cost of 5 washing machines and 2 TVs?",
+          "options": {
+            "A": "Decrease by 3%",
+            "B": "Decrease by 2%",
+            "C": "Increase by 0.8%",
+            "D": "Increase by 5%"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 38,
+          "question": "If tanθ = 12/5, what is the value of secθ?",
+          "options": {
+            "A": "13/12",
+            "B": "5/13",
+            "C": "12/5",
+            "D": "13/5"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 39,
+          "question": "The total surface area of a solid right circular cylinder is 542 cm². Its curved surface area is two-fifth of its total surface area. Find the curved surface area of the cylinder.",
+          "options": {
+            "A": "315.4 cm²",
+            "B": "212.5 cm²",
+            "C": "513.2 cm²",
+            "D": "216.8 cm²"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 40,
+          "question": "Two numbers have an HCF of 18 and an LCM of 1512. If one of the numbers is 126, find the positive difference between these number.",
+          "options": {
+            "A": "126",
+            "B": "90",
+            "C": "216",
+            "D": "256"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 41,
+          "question": "1/20 is what percentage of 10/40?",
+          "options": {
+            "A": "30%",
+            "B": "40%",
+            "C": "35%",
+            "D": "20%"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 42,
+          "question": "In statistics out of 100, the marks of 21 students in final exams are as 90, 95, 95, 94, 90, 85, 84, 83, 85, 81, 92, 93, 82, 78, 79, 81, 80, 82, 85, 76, 85, then the mode of data is:",
+          "options": {
+            "A": "84",
+            "B": "83",
+            "C": "87"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 43,
+          "question": "A fruit vendor bought 150 mangoes. He sold them at such a price that the selling price of 120 mangoes equals the cost price of 150 mangoes. Find his profit percentage.",
+          "options": {
+            "A": "30%",
+            "B": "35%",
+            "C": "25%",
+            "D": "20%"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 44,
+          "question": "Three pipes, A, B and C, can fill a tank from empty to full in 40 minutes, 20 minutes and 30 minutes, respectively. When the tank is empty, all the three pipes are opened. A, B and C discharge chemical solutions P, Q and R, respectively. What is the proportion of solution Q in the liquid in the tank after 9 minutes?",
+          "options": {
+            "A": "3/4",
+            "B": "6/13",
+            "C": "7/13",
+            "D": "3/13"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 45,
+          "question": "Two-fifth of a container is filled with blue liquid, one-third of the remaining container is filled with black liquid, five-sixth of the still remaining container is filled with yellow liquid and the remaining 4.2 litres is of white colour. Find the total capacity of the container.",
+          "options": {
+            "A": "72 litres",
+            "B": "63 litres",
+            "C": "60 litres",
+            "D": "78 litres"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 46,
+          "question": "A 325 m long train overtakes a man moving at a speed of 5 km/hr (in the same direction) in 45 seconds. How much time (in seconds) will it take this train to completely cross another 440 m long train, moving in the opposite direction at a speed of 20 km/hr?",
+          "options": {
+            "A": "54",
+            "B": "40",
+            "C": "52",
+            "D": "51"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 47,
+          "question": "Simplify [3/4 ÷ {1/4 - 0.5(2/12 - 1/12)}] 5 × 1/15",
+          "options": {
+            "A": "234",
+            "B": "134",
+            "C": "434",
+            "D": "334"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 48,
+          "question": "A and B working together can do a piece of work in 6 days. B alone can do the same work in 12 days. How long (in days) will A alone take to do double the work?",
+          "options": {
+            "A": "12",
+            "B": "25",
+            "C": "24",
+            "D": "27"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 49,
+          "question": "A scheme like 'Buy 6, Get 4 Free' on the same kind of articles with the same MRP attracts a % discount.",
+          "options": {
+            "A": "67.67",
+            "B": "40",
+            "C": "41",
+            "D": "66.67"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 50,
+          "question": "The amount on a sum of £6,800 at 15% per annum compound interest, compounded annually, in 2 years' time, will be:",
+          "options": {
+            "A": "£7,996",
+            "B": "£8,641",
+            "C": "£9,393",
+            "D": "£8,993"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    },
+    "PART-D": {
+      "General Awareness": [
+        {
+          "question_id": 81,
+          "question": "On 24 May 2025, the order of which High Court was overturned by the Supreme Court and ruled that denying maternity leave for a third child violates a woman's constitutional right, reinforcing her dignity and reproductive freedom?",
+          "options": {
+            "A": "Allahabad High Court",
+            "B": "Hyderabad High Court",
+            "C": "Bombay High Court",
+            "D": "Madras High Court"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 82,
+          "question": "Which of the following new digital facilities was launched in May 2025 by the Union Ministry of Social Justice and Empowerment during the 'Ageing with Dignity' event?",
+          "options": {
+            "A": "Senior Citizens Welfare Portal",
+            "B": "Digital Life Certificate Platform",
+            "C": "Employment Exchange Portal for Senior Citizens",
+            "D": "One-Stop Senior Citizens Services Portal"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 83,
+          "question": "In 2025, which city in Maharashtra has achieved 100% segregation, collection and processing of sanitary and biomedical waste, handling an average of 300 to 350 kg of sanitary waste daily?",
+          "options": {
+            "A": "Nagpur",
+            "B": "Karad",
+            "C": "Nasik",
+            "D": "Pune"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 84,
+          "question": "Who authored the book 'Test Cricket: A History', released in 2025?",
+          "options": {
+            "A": "Tim Wigmore",
+            "B": "Ramachandra Guha",
+            "C": "Michael Atherton",
+            "D": "Gideon Haigh"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 85,
+          "question": "Which chess player, besides Gukesh, received the Arjuna Award in 2025?",
+          "options": {
+            "A": "Harika Dronavalli",
+            "B": "Vantika Agrawal",
+            "C": "Koneru Humpy",
+            "D": "Pentala Harikrishna"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 86,
+          "question": "Which of the following documentaries did the Reserve Bank of India (RBI) launch to explain its functions to the public in June 2025?",
+          "options": {
+            "A": "RBI Unlocked: Beyond the Rupee",
+            "B": "Financial Literacy A2Z",
+            "C": "My RBI Story",
+            "D": "RBI: Money Simplified"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 87,
+          "question": "Which Indian Ministry launched the Bharat Forecasting System (BFS) on 26 May 2025 to provide weather predictions with a 6-km resolution?",
+          "options": {
+            "A": "Ministry of Environment, Forest and Climate Change",
+            "B": "Ministry of Agriculture and Farmers Welfare",
+            "C": "Ministry of Earth Sciences",
+            "D": "Ministry of Defence"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 88,
+          "question": "Which startup was selected in April 2025 to build India's first sovereign Indic LLM under the IndiaAI Mission?",
+          "options": {
+            "A": "Wadhwani AI",
+            "B": "People+AI",
+            "C": "Sarvam AI",
+            "D": "AI4 Bharat"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 89,
+          "question": "As reported in May 2025, the study by Climate Trends, a Delhi-based research consultancy, examined NASA satellite data of the Himalayan glaciers from 2000-2023 to evaluate the impact of which of the following on Himalayan snow?",
+          "options": {
+            "A": "Ozone",
+            "B": "Sulfate Aerosols",
+            "C": "Black Carbon",
+            "D": "Mineral Dust Particles"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 90,
+          "question": "The National Conference on Good Governance, organised by the Department of Administrative Reforms and Public Grievances (DARPG) was held in which of the following places in January 2025?",
+          "options": {
+            "A": "Gandhinagar",
+            "B": "Varanasi",
+            "C": "Bhopal",
+            "D": "Jaipur"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 91,
+          "question": "What was the theme of the 78th World Health Assembly, 2025, held in Geneva in May 2025?",
+          "options": {
+            "A": "Health for All: Building Resilient Systems",
+            "B": "Advancing Equity in Global Health",
+            "C": "One World for Health",
+            "D": "Universal Health Coverage: A Global Need"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 92,
+          "question": "As announced by the Government of India, as on 7 July 2025, how many biotech startups does India have, compared to just 50 a decade ago?",
+          "options": {
+            "A": "Nearly 9000",
+            "B": "8050",
+            "C": "Nearly 11,000",
+            "D": "7000"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 93,
+          "question": "Which of the following awards recognises children's book writers from 22 languages?",
+          "options": {
+            "A": "Sahitya Akademi Yuva Puraskar",
+            "B": "Sahitya Ratna",
+            "C": "Padma Shri",
+            "D": "Bal Sahitya Puraskar"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 94,
+          "question": "On 16 May 2025, the Supreme Court invalidated the Indian Government's orders passed in which years, allowing ex-post facto environmental clearances?",
+          "options": {
+            "A": "2009 and 2015",
+            "B": "2012 and 2014",
+            "C": "2017 and 2021",
+            "D": "2006 and 2011"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 95,
+          "question": "Where did the chemical factory blast occur on 30 June 2025?",
+          "options": {
+            "A": "Nizamabad",
+            "B": "Vijayawada",
+            "C": "Warangal",
+            "D": "Sangareddy"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 96,
+          "question": "Which state became the third Indian state to be recognised as fully functionally literate, under the ULLAS - New India Literacy Programme, in June 2025?",
+          "options": {
+            "A": "Karnataka",
+            "B": "Tripura",
+            "C": "Assam",
+            "D": "Telangana"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 97,
+          "question": "Which of the following shifted its Andhra Pradesh regional office to Vijayawada, inaugurating the new premises on 16 June 2025?",
+          "options": {
+            "A": "Bank of Baroda",
+            "B": "Securities and Exchange Board of India",
+            "C": "Reserve Bank of India",
+            "D": "Life Insurance Corporation of India"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 98,
+          "question": "India set a new Guinness World Record in 2025 for the largest human formation of which of the following symbols?",
+          "options": {
+            "A": "Ashoka Chakra",
+            "B": "Olympic rings",
+            "C": "Heart shape",
+            "D": "Peace symbol"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 99,
+          "question": "India won the ICC Women's U19 T20 World Cup 2025 by defeating which country in the final?",
+          "options": {
+            "A": "Sri Lanka",
+            "B": "Australia",
+            "C": "South Africa",
+            "D": "England"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 100,
+          "question": "Which sport had the most Arjuna Award recipients in January 2025?",
+          "options": {
+            "A": "Para-Athletics",
+            "B": "Shooting",
+            "C": "Hockey",
+            "D": "Athletics"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    }
+  }
+}
