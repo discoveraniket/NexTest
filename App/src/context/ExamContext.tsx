@@ -121,7 +121,11 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
     const qId = currentQuestion.question_id;
     setExamState((prev) => ({
       ...prev,
-      [qId]: { ...prev[qId], selectedOption: null }
+      [qId]: { 
+        ...prev[qId], 
+        selectedOption: null,
+        status: 'VISITED' // Reset status to visited when clearing response
+      }
     }));
   }, [currentQuestion]);
 
