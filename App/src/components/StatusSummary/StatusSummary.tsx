@@ -2,7 +2,7 @@ import { useExam } from '../../context/ExamContext';
 import { Check } from 'lucide-react';
 
 export const StatusSummary = () => {
-  const { examState, allQuestions } = useExam();
+  const { examState, allQuestions, submitExam } = useExam();
 
   const summary = {
     answered: 0,
@@ -65,11 +65,7 @@ export const StatusSummary = () => {
 
       <button 
         className="mt-2 w-full bg-[#f0f0f0] hover:bg-[#e0e0e0] text-gray-800 font-bold py-3 px-4 rounded border border-gray-300 shadow-sm transition-all text-sm uppercase tracking-wide cursor-pointer active:scale-95"
-        onClick={() => {
-          if (window.confirm("Are you sure you want to submit the exam?")) {
-            alert("Exam Submitted successfully!");
-          }
-        }}
+        onClick={submitExam}
       >
         Submit
       </button>

@@ -4,6 +4,7 @@ import { ExamHeader } from '../components/ExamHeader/ExamHeader';
 import { SubjectStrip } from '../components/SubjectStrip/SubjectStrip';
 import { QuestionCanvas } from '../components/QuestionCanvas/QuestionCanvas';
 import { PaletteSidebar } from '../components/PaletteSidebar/PaletteSidebar';
+import { ResultTerminal } from './ResultTerminal';
 
 export const ExamTerminal: React.FC = () => {
   const {
@@ -15,11 +16,16 @@ export const ExamTerminal: React.FC = () => {
     examState,
     timeLeft,
     isInitialized,
+    isSubmitted,
     jumpToSubject,
   } = useExam();
 
   // Get unique subjects for the SubjectStrip
   const subjects = Array.from(new Set(allQuestions.map(q => `${q.part} - ${q.subject}`)));
+
+  if (isSubmitted) {
+    return <ResultTerminal />;
+  }
 
   if (!isInitialized || !allQuestions || allQuestions.length === 0 || !currentQuestion || !examState[currentQuestion.question_id]) {
     return (
