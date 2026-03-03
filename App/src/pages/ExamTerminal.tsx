@@ -32,7 +32,7 @@ export const ExamTerminal: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col h-screen overflow-hidden bg-gray-50">
+    <div className="flex flex-col h-full md:h-screen overflow-y-auto md:overflow-hidden bg-gray-50">
       <ExamHeader 
         examName={examData.exam_details.name} 
         examYear={examData.exam_details.year} 
@@ -45,7 +45,7 @@ export const ExamTerminal: React.FC = () => {
         onSubjectChange={jumpToSubject} 
       />
 
-      <main className="flex-1 flex overflow-hidden">
+      <main className="flex-1 flex flex-col md:flex-row overflow-y-visible md:overflow-hidden">
         <QuestionCanvas />
         <PaletteSidebar />
       </main>

@@ -14,7 +14,7 @@ export const PaletteSidebar: React.FC = () => {
   } = useExam();
 
   return (
-    <aside className="w-[350px] flex flex-col bg-sidebar-bg border-l border-border-color h-full overflow-hidden">
+    <aside className="w-full md:w-[350px] flex flex-col bg-sidebar-bg border-l border-border-color h-auto md:h-full overflow-hidden">
       <CandidateProfile name="Joymalya Majee" rollNo="000-420" />
       
       <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-6">

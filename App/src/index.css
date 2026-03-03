@@ -37,7 +37,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f2f5;
   color: var(--text-main);
-  overflow: hidden;
+  /* Desktop stays fixed, mobile can scroll */
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 }
 
 #root {

@@ -15,11 +15,12 @@ export const ExamHeader = ({ examName, examYear, timeLeft }: ExamHeaderProps) =>
   };
 
   return (
-    <header className="h-[60px] bg-header-bg border-b-2 border-border-color flex justify-between items-center px-5 font-bold">
-      <div>{examName} {examYear}</div>
-      <div className="text-[#d32f2f] text-[20px] flex items-center gap-2">
-        <Clock size={20} />
-        <span>Time Left: {formatTime(timeLeft)}</span>
+    <header className="h-[60px] bg-header-bg border-b-2 border-border-color flex justify-between items-center px-3 md:px-5 font-bold">
+      <div className="text-xs md:text-base line-clamp-1">{examName} {examYear}</div>
+      <div className="text-[#d32f2f] text-sm md:text-[20px] flex items-center gap-2 whitespace-nowrap">
+        <Clock size={16} className="md:w-5 md:h-5" />
+        <span className="hidden sm:inline">Time Left: </span>
+        <span>{formatTime(timeLeft)}</span>
       </div>
     </header>
   );
