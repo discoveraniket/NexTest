@@ -26,28 +26,42 @@ const wrapper = ({ children }: { children: ReactNode }) => (
 );
 
 describe('ExamContext', () => {
-  it('should initialize with the first question', () => {
+  it('should initialize with the first question', async () => {
     const { result } = renderHook(() => useExam(), { wrapper });
     
+    // In actual app, we call initializeSession. 
+    // For this test, we can mock the initialization or non-null assert if we know it exists
+    await act(async () => {
+      await result.current.initializeSession('1');
+    });
+
     expect(result.current.currentIdx).toBe(0);
-    expect(result.current.currentQuestion.question_id).toBe(1);
+    expect(result.current.currentQuestion?.question_id).toBe(1);
     expect(result.current.examState[1].status).toBe('VISITED');
   });
 
   it('should navigate to next question and update status', async () => {
     const { result } = renderHook(() => useExam(), { wrapper });
 
+    await act(async () => {
+      await result.current.initializeSession('1');
+    });
+
     act(() => {
       result.current.goToQuestion(1);
     });
 
     expect(result.current.currentIdx).toBe(1);
-    expect(result.current.currentQuestion.question_id).toBe(2);
+    expect(result.current.currentQuestion?.question_id).toBe(2);
     expect(result.current.examState[2].status).toBe('VISITED');
   });
 
-  it('should select an option and clear it', () => {
+  it('should select an option and clear it', async () => {
     const { result } = renderHook(() => useExam(), { wrapper });
+
+    await act(async () => {
+      await result.current.initializeSession('1');
+    });
 
     act(() => {
       result.current.selectOption('B');
@@ -60,8 +74,12 @@ describe('ExamContext', () => {
     expect(result.current.examState[1].selectedOption).toBe(null);
   });
 
-  it('should update status to ANSWERED when saved with option', () => {
+  it('should update status to ANSWERED when saved with option', async () => {
     const { result } = renderHook(() => useExam(), { wrapper });
+
+    await act(async () => {
+      await result.current.initializeSession('1');
+    });
 
     act(() => {
       result.current.selectOption('B');
@@ -72,8 +90,12 @@ describe('ExamContext', () => {
     expect(result.current.currentIdx).toBe(1);
   });
 
-  it('should update status to MARKED when marked for review without option', () => {
+  it('should update status to MARKED when marked for review without option', async () => {
     const { result } = renderHook(() => useExam(), { wrapper });
+
+    await act(async () => {
+      await result.current.initializeSession('1');
+    });
 
     act(() => {
       result.current.markForReview();
@@ -82,8 +104,12 @@ describe('ExamContext', () => {
     expect(result.current.examState[1].status).toBe('MARKED');
   });
 
-  it('should update status to ANSWERED_MARKED when marked for review with option', () => {
+  it('should update status to ANSWERED_MARKED when marked for review with option', async () => {
     const { result } = renderHook(() => useExam(), { wrapper });
+
+    await act(async () => {
+      await result.current.initializeSession('1');
+    });
 
     act(() => {
       result.current.selectOption('A');
