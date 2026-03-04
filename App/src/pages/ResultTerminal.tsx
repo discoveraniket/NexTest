@@ -30,6 +30,7 @@ export const ResultTerminal = () => {
 
   // --- Calculations ---
   const stats = useMemo(() => {
+    if (!examData) return null;
     let correct = 0;
     let incorrect = 0;
     let unattempted = 0;
@@ -63,6 +64,8 @@ export const ResultTerminal = () => {
 
     return { correct, incorrect, unattempted, totalScore, maxScore, percentage, subjectStats };
   }, [allQuestions, examState, examData]);
+
+  if (!stats || !examData) return null;
 
   return (
     <div className="min-h-screen bg-gray-100 font-sans result-page overflow-y-auto">

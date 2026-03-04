@@ -1,10 +1,12 @@
-import { createContext, useContext, useState, useEffect, useCallback, useMemo, type ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react';
 import { supabase } from '../lib/supabase';
 import type { 
   ExamState, 
   Question,
   ExamData,
-  FlattenedQuestion
+  FlattenedQuestion,
+  QuestionStatus,
+  QuestionState
 } from '../types';
 
 interface ExamContextType {
@@ -167,9 +169,10 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
     setExamState((prev) => {
       const qState = prev[qId];
       if (qState && qState.status === 'NOT_VISITED') {
+        const newState: QuestionState = { ...qState, status: 'VISITED' as QuestionStatus };
         return {
           ...prev,
-          [qId]: { ...qState, status: 'VISITED' }
+          [qId]: newState
         };
       }
       return prev;
@@ -178,7 +181,7 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
 
   const selectOption = useCallback((option: string) => {
     if (isSubmitted || !currentQuestion) return;
-    const qId = currentQuestion.question_id;
+    const qId = currentQuestion.question_id.toString();
     setExamState((prev) => ({
       ...prev,
       [qId]: { ...prev[qId], selectedOption: option }
@@ -187,28 +190,29 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
 
   const clearResponse = useCallback(() => {
     if (isSubmitted || !currentQuestion) return;
-    const qId = currentQuestion.question_id;
+    const qId = currentQuestion.question_id.toString();
     setExamState((prev) => ({
       ...prev,
       [qId]: { 
         ...prev[qId], 
         selectedOption: null,
-        status: 'VISITED'
+        status: 'VISITED' as QuestionStatus
       }
     }));
   }, [currentQuestion, isSubmitted]);
 
   const saveAndNext = useCallback(() => {
     if (isSubmitted || !currentQuestion) return;
-    const qId = currentQuestion.question_id;
+    const qId = currentQuestion.question_id.toString();
 
     setExamState((prev) => {
       const hasOption = prev[qId]?.selectedOption !== null;
+      const newStatus: QuestionStatus = hasOption ? 'ANSWERED' : 'VISITED';
       return {
         ...prev,
         [qId]: { 
           ...prev[qId], 
-          status: hasOption ? 'ANSWERED' : 'VISITED' 
+          status: newStatus
         }
       };
     });
@@ -220,15 +224,16 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
 
   const markForReview = useCallback(() => {
     if (isSubmitted || !currentQuestion) return;
-    const qId = currentQuestion.question_id;
+    const qId = currentQuestion.question_id.toString();
 
     setExamState((prev) => {
       const hasOption = prev[qId]?.selectedOption !== null;
+      const newStatus: QuestionStatus = hasOption ? 'ANSWERED_MARKED' : 'MARKED';
       return {
         ...prev,
         [qId]: { 
           ...prev[qId], 
-          status: hasOption ? 'ANSWERED_MARKED' : 'MARKED' 
+          status: newStatus
         }
       };
     });

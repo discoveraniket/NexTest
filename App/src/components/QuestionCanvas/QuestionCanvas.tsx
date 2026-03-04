@@ -14,7 +14,10 @@ export const QuestionCanvas: React.FC = () => {
     markForReview 
   } = useExam();
 
-  const qState = examState[currentQuestion.question_id];
+  if (!currentQuestion) return null;
+
+  const qId = currentQuestion.question_id.toString();
+  const qState = examState[qId];
 
   return (
     <section className="flex-1 flex flex-col bg-white border-r-2 border-border-color p-5 overflow-y-auto relative">
@@ -28,9 +31,9 @@ export const QuestionCanvas: React.FC = () => {
         </div>
         
         <OptionTray 
-          questionId={currentQuestion.question_id} 
+          questionId={Number(currentQuestion.question_id)} 
           options={currentQuestion.options} 
-          selectedOption={qState.selectedOption} 
+          selectedOption={qState?.selectedOption || null} 
           onSelect={selectOption} 
         />
       </div>
