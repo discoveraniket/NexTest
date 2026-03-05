@@ -107,7 +107,7 @@ export const LoginPage = () => {
                   <Loader2 className="animate-spin" size={18} />
                 ) : (
                   <>
-                    <LogIn size={18} /> SIGN IN TO EXAM
+                    <LogIn size={18} /> SIGN IN
                   </>
                 )}
               </button>
