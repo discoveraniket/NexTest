@@ -5,8 +5,7 @@ import type {
   Question,
   ExamData,
   FlattenedQuestion,
-  QuestionStatus,
-  QuestionState
+  QuestionStatus
 } from '../types';
 
 interface ExamContextType {
@@ -134,11 +133,12 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
   const resetExam = useCallback(() => {
     setExamState((prev) => {
       const next = { ...prev };
-      Object.keys(next).forEach((id: any) => {
-        next[id as any] = { status: 'NOT_VISITED', selectedOption: null };
+      Object.keys(next).forEach((id) => {
+        next[id] = { status: 'NOT_VISITED' as QuestionStatus, selectedOption: null };
       });
       if (allQuestions.length > 0) {
-        next[allQuestions[0].question.question_id].status = 'VISITED';
+        const firstQId = allQuestions[0].question.question_id.toString();
+        next[firstQId] = { status: 'VISITED' as QuestionStatus, selectedOption: null };
       }
       return next;
     });
@@ -150,11 +150,11 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
   const goToQuestion = useCallback((idx: number) => {
     if (isSubmitted || idx < 0 || idx >= allQuestions.length) return;
     setCurrentIdx(idx);
-    const qId = allQuestions[idx].question.question_id;
+    const qId = allQuestions[idx].question.question_id.toString();
     setExamState((prev) => {
       const qState = prev[qId];
       if (qState && qState.status === 'NOT_VISITED') {
-        return { ...prev, [qId]: { ...qState, status: 'VISITED' } };
+        return { ...prev, [qId]: { ...qState, status: 'VISITED' as QuestionStatus } };
       }
       return prev;
     });
@@ -178,7 +178,7 @@ export const ExamProvider = ({ children }: { children: ReactNode }) => {
     const qId = currentEntry.question.question_id.toString();
     setExamState((prev) => ({
       ...prev,
-      [qId]: { ...prev[qId], selectedOption: null, status: 'VISITED' }
+      [qId]: { ...prev[qId], selectedOption: null, status: 'VISITED' as QuestionStatus }
     }));
   }, [allQuestions, currentIdx, isSubmitted]);
 
