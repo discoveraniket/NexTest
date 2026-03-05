@@ -7,7 +7,8 @@
     "setup": "npm install && cd App && npm install",
     "dev": "cd App && npm run dev",
     "test": "cd App && npm run test -- --run",
-    "build": "cd App && npm run build"
+    "build": "cd App && npm run build",
+    "seed": "node Tools/seeder.js"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,52 @@
+{
+  "exam": {
+    "name": "JEE Main",
+    "category": "Engineering",
+    "description": "Joint Entrance Examination"
+  },
+  "session": {
+    "year": 2025,
+    "duration_minutes": 180,
+    "correct_marks": 4,
+    "negative_marks": 1,
+    "is_active": true
+  },
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "display_order": 1,
+      "questions": [
+        {
+          "content": "If f(x) = x^2 + 2x + 1, then f'(1) is:",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "1",
+            "D": "0"
+          },
+          "correct_answer": "B",
+          "explanation": "f'(x) = 2x + 2, so f'(1) = 2(1) + 2 = 4.",
+          "difficulty_level": "easy"
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "display_order": 2,
+      "questions": [
+        {
+          "content": "The unit of force is:",
+          "options": {
+            "A": "Joule",
+            "B": "Watt",
+            "C": "Newton",
+            "D": "Pascal"
+          },
+          "correct_answer": "C",
+          "explanation": "Newton (N) is the SI unit of force.",
+          "difficulty_level": "easy"
+        }
+      ]
+    }
+  ]
+}
