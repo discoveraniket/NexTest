@@ -105,9 +105,9 @@ export const PracticeQuestionCard: React.FC<PracticeQuestionCardProps> = ({
         <AnimatePresence>
           {showExplanation && (
             <motion.div
-              initial={{ opacity: 0, height: 0, mt: 0 }}
-              animate={{ opacity: 1, height: 'auto', mt: 40 }}
-              exit={{ opacity: 0, height: 0, mt: 0 }}
+              initial={{ opacity: 0, height: 0, marginTop: 0 }}
+              animate={{ opacity: 1, height: 'auto', marginTop: 40 }}
+              exit={{ opacity: 0, height: 0, marginTop: 0 }}
               className="overflow-hidden"
             >
               <div className="bg-indigo-50/50 rounded-3xl p-8 md:p-10 border border-indigo-100">
